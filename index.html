@@ -7,17 +7,24 @@
 </head>
 <body>
 <div id="mensaje"></div>
-<div id="resultado">40</div>
+<div id="resultado"></div>
 
-   <script>
-    var mensaje="Bienvenido a Certus"
-    document.getElementById('mensaje').innerHTML=mensaje;
-    var valor1=10;
-    var valor2=30;
-    var suma=valor1+valor2;
+<script>
+    var _valor1=10;
 
-    document.getElementById('resulado').innerHTML=suma;
-   </script>
+    var $valor2=30;
+
+    var suma=_valor1+$valor2;
+    document.getElementById('resultado').innerHTML="El resultado de la suma es: "+suma;
+    
+    var nombreInstituto="Certus";
+
+    document.getElementById('mensaje').innerHTML="Bienvenido a "+nombreInstituto;
+
+
+</script>
+
+   
 
 </body>
 </html>
